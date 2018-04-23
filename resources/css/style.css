@@ -1,0 +1,47 @@
+html
+
+header {
+
+
+}
+
+a {
+
+  text-decoration: none;
+}
+
+.flex-container {
+
+  width: 970px;
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 24px;
+  background-color: red;
+
+
+}
+
+.logo {
+
+  display: flex;
+  align-items: center;
+
+}
+
+.logo img {
+  padding-right: 1rem;
+}
+
+
+.flex-container ul {
+
+  display: flex;
+}
+
+
+li {
+
+  padding: 16px;
+}
