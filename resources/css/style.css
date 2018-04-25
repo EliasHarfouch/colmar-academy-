@@ -125,6 +125,7 @@ height: 50px;
   width: 100%;
   display: flex;
   flex-direction: flex-start;
+  margin-bottom: 30px;
 
 
 
@@ -236,4 +237,41 @@ height: 50px;
   font-weight: bold;
   padding-bottom: 8px;
   width: 60%;
+}
+
+
+/*third container*/
+
+.third-container {
+  width: 100%;
+  padding-left: 72px;
+  padding-right: 72px;
+  background-color: #f2f2f2;
+}
+
+.third-container h1 {
+  text-align: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+}
+
+.courses {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+
+}
+
+.course img {
+
+  padding-left: 16px;
+}
+
+.info h3 {
+
+  width: 100%;
+  height: auto;
 }
