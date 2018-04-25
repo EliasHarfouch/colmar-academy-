@@ -1,14 +1,23 @@
 html
 
-header {
+body {
+
+  width: 100%;
+  height: auto;
+}
 
 
+
+
+h1 {
+  font-size: 3em;
 }
 
 a {
 
   text-decoration: none;
 }
+/*nav container*/
 
 .flex-container {
 
@@ -17,10 +26,15 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: 24px;
-  background-color: red;
 
 
+
+}
+
+.flex-container,
+.container {
+  width: 100%;
+  margin: auto;
 }
 
 .logo {
@@ -28,10 +42,13 @@ a {
   display: flex;
   align-items: center;
 
+
+
 }
 
 .logo img {
   padding-right: 1rem;
+  align-items: center;
 }
 
 
@@ -40,8 +57,183 @@ a {
   display: flex;
 }
 
-
 li {
 
   padding: 16px;
+  margin-right: 24px;
+}
+
+/*end of nav/heading section*/
+
+.container {
+
+  display: inline-block;
+  background-color: #E5E7E9;
+}
+
+img {
+
+width: 60%;
+padding: 32px 24px 32px 24px;
+float: left;
+}
+
+h1, h2 {
+
+  text-align: left;
+  line-height: 3rem;
+  padding-left: 20px;
+
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+
+.block-content {
+
+  display: block;
+  padding-top: 150px;
+
+}
+
+.start {
+
+display: inline-block;
+background-color: #595959;
+width: 350px;
+height: 50px;
+}
+
+.start h3 {
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 8px;
+
+}
+
+
+/* second container */
+
+.second-container {
+  width: 100%;
+  display: flex;
+  flex-direction: flex-start;
+
+
+
+}
+
+.left-div {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+
+
+
+}
+
+.inspire {
+  margin-left: 24px;
+  width: 100%;
+}
+
+.inspire h2 {
+  font-weight: bold;
+  padding-bottom: 5px;
+  text-align: left;
+
+}
+
+.inspire p {
+
+  padding-bottom: 50px;
+  text-align: left;
+  padding-top: 24px;
+}
+
+.inspire span {
+
+  padding-bottom: 32px;
+}
+
+
+
+
+.right-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 40%;
+  padding-left: 24px;
+}
+
+
+.right-div img {
+
+  width: 35%;
+}
+
+.left-div img {
+  width: 100%;
+}
+
+
+
+.orientation {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.campus {
+
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.guest-lecture {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  background-color: #E5E7E9;
+  margin-left: 24px;
+
+}
+.info {
+
+  width: 100%;
+  height: auto;
+}
+
+.info h3 {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 8px;
+  width: 60%;
+}
+
+.info p {
+  padding-bottom: 15px;
+}
+
+.info-guest {
+  width: 100%
+  height: auto;
+
+}
+
+.info-guest h3 {
+
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 8px;
+  width: 60%;
 }
