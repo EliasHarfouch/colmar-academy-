@@ -1,3 +1,24 @@
+/* latin */
+@font-face {
+  font-family: 'Bree Serif';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Bree Serif Regular'), local('BreeSerif-Regular'), url(https://fonts.gstatic.com/s/breeserif/v7/4UaHrEJCrhhnVA3DgluA96rp57F2IwM.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Varela';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Varela'), url(https://fonts.gstatic.com/s/varela/v8/DPEtYwqExx0AWHX5Ax4EXP_TsA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+
+
 html
 
 body {
@@ -30,7 +51,8 @@ a {
 }
 
 .flex-container,
-.container {
+.container,
+ {
   width: 100%;
   margin: auto;
 }
@@ -65,16 +87,38 @@ li {
 
   display: flex;
   background-color: #E5E7E9;
-  width: 100%;
 
+
+}
+
+.cover-image {
+  width: 60%;
+}
+
+.cover-image img {
+
+  width: 100%;
 }
 
 .text-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 24px; 
+  align-content: flex-start;
+  padding-left: 50px;
 
+}
+
+
+
+.text-container h1 {
+  padding-bottom: 20px;
+
+}
+
+.text-container h3 {
+  font-size: 1rem;
+  padding-bottom: 20px;
 }
 
 
@@ -91,28 +135,25 @@ padding: 32px 24px 32px 24px;
 
 }
 
-
+.text-container
 h1 {
   font-size: 3em;
+  font-family: "Bree Serif", "Varela";
 }
 
 h2 {
   font-size: 1.5rem;
 }
 
-.start {
+.text-container span {
 
-background-color: #595959;
-width: 350px;
-height: 50px;
-}
-
-.start h3 {
+  background-color: #595959;
+  width: 350px;
+  height: 50px;
   color: #ffffff;
   font-size: 20px;
   text-align: center;
   padding-top: 8px;
-
 }
 
 
@@ -124,16 +165,12 @@ height: 50px;
   flex-direction: flex-start;
   margin-bottom: 30px;
 
-
-
 }
 
 .left-div {
   width: 60%;
   display: flex;
   flex-direction: column;
-
-
 
 }
 
@@ -142,18 +179,21 @@ height: 50px;
   width: 100%;
 }
 
+.inspire h1 {
+
+  font-family: "Bree Serif", "Varela";
+}
+
 .inspire h2 {
   font-weight: bold;
-  padding-bottom: 5px;
   text-align: left;
-
+  padding-top: 32px;
 }
 
 .inspire p {
 
-  padding-bottom: 50px;
-  text-align: left;
   padding-top: 24px;
+  padding-bottom: 30px;
 }
 
 .inspire span {
@@ -169,13 +209,24 @@ height: 50px;
   flex-direction: column;
   justify-content: flex-start;
   width: 40%;
-  padding-left: 24px;
+  margin-left: 24px;
 }
 
 
 .right-div img {
 
   width: 35%;
+
+}
+
+.campus img {
+
+  padding-left: 50px;
+}
+
+.orientation img {
+
+  padding-left: 50px;
 }
 
 .left-div img {
@@ -195,6 +246,7 @@ height: 50px;
   display: flex;
   align-items: center;
   text-align: left;
+
 }
 
 .guest-lecture {
@@ -205,6 +257,13 @@ height: 50px;
   margin-left: 24px;
 
 }
+
+.guest-lecture img {
+
+}
+
+
+
 .info {
 
   width: 100%;
@@ -236,20 +295,29 @@ height: 50px;
   width: 60%;
 }
 
+.info-guest p {
+
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+
 
 /*third container*/
 
 .third-container {
-  width: 100%;
-  padding-left: 72px;
-  padding-right: 72px;
+
+
   background-color: #f2f2f2;
+
 }
 
 .third-container h1 {
+  font-family: "Bree Serif", "Varela";
   text-align: center;
   padding-top: 32px;
   padding-bottom: 32px;
+
 
 }
 
@@ -257,12 +325,96 @@ height: 50px;
 
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  width: 100%;
+  justify-content: flex-end;
+  padding-left: 72px;
+  padding-right: 72px;
 
 }
 
-.course img {
 
-  padding-left: 16px;
+
+/*fourth-container*/
+
+
+.bottom-section h1 {
+  font-family: "Bree Serif", "Varela", sans-serif; 
+  padding-top: 32px;
+  padding-bottom: 32px;
+  text-align: center;
+}
+
+.fourth-container {
+  display: flex;
+  flex-direction:
+}
+
+.fourth-container h1 {
+
+  text-align: center;
+}
+
+
+.video-column {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+
+}
+
+.video-column img {
+  width: 60%;
+}
+
+.text-section {
+  padding-left: 24px;
+}
+
+.text-section h3 {
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 24px;
+  padding-bottom: 8px;
+}
+
+
+.image-column {
+
+  width: 40%;
+}
+
+.image-column img {
+
+  width: 35%;
+}
+
+
+
+}
+
+.image-column {
+
+  display: flex;
+  flex-direction: column;
+
+}
+
+.image-content img {
+
+  width: 35%;
+}
+
+.video-column {
+
+
+}
+
+.image-column {
+
+
+}
+
+.image {
+
+  display: flex;
+  align-items: center;
 }
