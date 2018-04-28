@@ -113,10 +113,11 @@ li {
 
 .text-container h1 {
   padding-bottom: 20px;
-
+  font-family:
 }
 
 .text-container h3 {
+  font-family:
   font-size: 1rem;
   padding-bottom: 20px;
 }
@@ -174,8 +175,8 @@ h2 {
 
 }
 
-.inspire {
-  margin-left: 24px;
+.inspire h1, p, span {
+  padding-left: 24px;
   width: 100%;
 }
 
@@ -185,12 +186,14 @@ h2 {
 }
 
 .inspire h2 {
+  font-family: "Bree Serif", "Varela", sans-serif;
   font-weight: bold;
   text-align: left;
   padding-top: 32px;
 }
 
 .inspire p {
+
 
   padding-top: 24px;
   padding-bottom: 30px;
@@ -200,9 +203,6 @@ h2 {
 
   padding-bottom: 32px;
 }
-
-
-
 
 .right-div {
   display: flex;
@@ -271,6 +271,7 @@ h2 {
 }
 
 .info h3 {
+  font-family: "Bree Serif", "Varela", sans-serif;
   font-size: 20px;
   font-weight: bold;
   padding-bottom: 8px;
@@ -288,7 +289,7 @@ h2 {
 }
 
 .info-guest h3 {
-
+  font-family: "Bree Serif", "Varela", sans-serif;
   font-size: 20px;
   font-weight: bold;
   padding-bottom: 8px;
@@ -313,7 +314,7 @@ h2 {
 }
 
 .third-container h1 {
-  font-family: "Bree Serif", "Varela";
+  font-family: "Bree Serif", "Varela", sans-serif;
   text-align: center;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -331,13 +332,20 @@ h2 {
 
 }
 
+.course {
 
+
+}
+
+ .info h3, h4, p {
+  padding-left: 16px;
+}
 
 /*fourth-container*/
 
 
 .bottom-section h1 {
-  font-family: "Bree Serif", "Varela", sans-serif; 
+  font-family: "Bree Serif", "Varela", sans-serif;
   padding-top: 32px;
   padding-bottom: 32px;
   text-align: center;
@@ -349,7 +357,7 @@ h2 {
 }
 
 .fourth-container h1 {
-
+  font-family: "Bree Serif", "Varela", sans-serif;
   text-align: center;
 }
 
@@ -365,15 +373,18 @@ h2 {
   width: 60%;
 }
 
+
 .text-section {
+
   padding-left: 24px;
+  padding-bottom: 32px;
 }
 
 .text-section h3 {
-  font-weight: bold;
+  font-family: "Bree Serif", "Varela", sans-serif;
   font-size: 20px;
   padding-top: 24px;
-  padding-bottom: 8px;
+  padding-bottom: 20px;
 }
 
 
@@ -387,9 +398,6 @@ h2 {
   width: 35%;
 }
 
-
-
-}
 
 .image-column {
 
@@ -405,16 +413,21 @@ h2 {
 
 .video-column {
 
-
 }
 
-.image-column {
+.info h3 {
 
-
+  font-family: "Bree Serif", "Varela", sans-serif;
 }
 
-.image {
+/*footer section*/
 
+
+footer {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
+
+footer ul {
+  display: flex;
